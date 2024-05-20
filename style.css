@@ -79,7 +79,7 @@ border: none;
 }
 
 /* Hero */
-.hero {
+.hero__section {
 width: 100vw;
 height: 70vh;
 display: flex;
