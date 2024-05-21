@@ -13,12 +13,12 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="main-header">
+    <header class="main__header">
         <nav class="nav container">
             <a href="#" class="logo">
                 <img src="images/logo-node-js.png" alt="node.js logo">
             </a>
-            <div class="items__container">
+            <div class="nav__container">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#">about</a></li>
                     <li class="nav__item"><a href="#">experience</a></li>
@@ -28,25 +28,51 @@
                 <button class="nav__btn">Resume</button>
             </div>
         </nav>
+        <container class="hero__section">
+            <div class="details">
+                <img src="images/photo_2024-04-26_12-29-37.jpg" alt="profile photo" class="profile-photo">
+            <div class="hero-details">
+                <div class="name-details">
+                    <h1 class="user__detail" id="user-name">Nazanin</h1>
+                    <h1 class="user__detail" id="user-familyname">Azar</h1>
+                </div>
+                <p>I design and build beautiful sites</p>
+            </div>
+            </div>
+           </container>
+           <div class="chevron__icons" id="scroll-icon">
+            <i class="fa-solid fa-chevron-down"></i>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
     </header>
 
   <!-- Hero -->
-   <container class="hero__section">
-    <div class="details">
-        <img src="images/photo_2024-04-26_12-29-37.jpg" alt="profile photo" class="profile-photo">
-    <div class="hero-details">
-        <div class="name-details">
-            <h1 class="user__detail" id="user-name">Nazanin</h1>
-            <h1 class="user__detail" id="user-familyname">Azar</h1>
+  
+
+<!-- Experience -->
+ <container>
+    <div class="main__experience">
+        <h1>Experience</h1>
+        <div class="items__container">
+            <section class="item__experience">
+                <h3>Job Title</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, quis.</p>
+            </section>
+            <section class="item__experience">
+                <h3>Job Title</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi, laboriosam.</p>
+            </section>
+            <section class="item__experience">
+                <h3>Job Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, itaque?</p>
+            </section>
+            <section class="item__experience">
+                <h3>Job Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, maxime.</p>
+            </section>
         </div>
-        <p>I design and build beautiful sites</p>
     </div>
-    </div>
-   </container>
-   <div class="chevron__icons" id="scroll-icon">
-    <i class="fa-solid fa-chevron-down"></i>
-    <i class="fa-solid fa-chevron-down"></i>
-</div>
+ </container>
 
 </body>
 </html>
