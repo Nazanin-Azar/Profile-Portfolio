@@ -19,6 +19,7 @@
 
   body{
     background-color: var(--color-primary-dark88);
+    overflow-x: hidden; /* جلوگیری از اسکرول افقی */
 }
  
 /* Header */
@@ -151,6 +152,130 @@ color: var(--color-white);
     margin-top: 5%;
 }
 
+
+/* About */
+
+.about__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0; 
+}
+
+.main__about {
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.main__about h1 {
+    color: var(--color-white);
+    margin-bottom: 3rem;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.img__about--container{
+    position: relative;
+    display: inline-block;
+}
+
+
+.main__details-about img {
+  width: 250px;
+  height: auto;  
+  margin-left: 100px;
+  position: relative;
+  z-index: 1;
+}
+
+.img__about--container::before{
+    content: "";
+    position: absolute;
+    z-index: 0; 
+    border: 2px solid var(--color-secondary-light90); 
+    top: 10px;
+    left: 10px;
+    right: -10px;
+    bottom: -10px;
+    margin-left: 100px;
+}
+
+.main__details-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+}
+
+.read__about {
+    min-width: ;
+}
+
+.read__about p {
+    color: var(--color-white);
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    text-align: left;
+    
+}
+
+.flex__about--section {
+  display: flex;
+}
+
+.information--container{
+    display: flex;
+    margin: 40px;
+}
+
+
+.information-item {
+    color: var(--color-white);
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.second-column {
+    margin-left: 50px;
+}
+
+.table__container {
+display: flex;
+justify-content: center;
+padding-top: 50px;
+
+}
+
+.scores__section {
+    width: 60%;
+    background-color: var(--color-secondary-dark80);
+    box-shadow: 0 5px 5px rgb(36, 36, 36);
+}
+
+.scores__section th,
+.scores__section td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.scores__section th {
+    color: var(--color-red);
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.scores__section td {
+    color: var(--color-white);
+    font-weight: 300;
+}
+
+
 /* Experience */
 
 .experience__container {
@@ -161,10 +286,13 @@ color: var(--color-white);
     margin: 0;
 }
 
+.main__experience{
+    max-width: 1200px;
+}
 
 .main__experience h1 {
     color: var(--color-white);
-    margin-bottom: 3rem;
+    padding-bottom: 5rem;
     display: flex;
     justify-content: center;
     font-size: 60px;
@@ -192,15 +320,15 @@ font-size: 1.5rem;
 margin-bottom: 5px;
 }
 
-.experience-line {
+/* .experience-line {
     display: block;
-    width: 100px; /* عرض خط */
-    height: 3px; /* ارتفاع خط */
-    background-color: var(--color-red); /* رنگ خط */
+    width: 100px; 
+    height: 3px; 
+    background-color: var(--color-red); 
     position: absolute;
     transform: translateX(25rem);
     top: 126%;
-}
+} */
 
 .item__experience h4 {
     color: var(--color-white);
