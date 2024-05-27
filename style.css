@@ -161,7 +161,7 @@ color: var(--color-white);
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    margin: 0; 
+    margin-top: 2rem;
 }
 
 .main__about {
@@ -280,7 +280,7 @@ padding-top: 50px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
+    margin-top: 7rem;
 }
 
 .main__experience{
@@ -345,7 +345,7 @@ margin-bottom: 5px;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    margin: 0;
+    margin-top: 7rem;
 }
 
 .main__skill{
@@ -395,3 +395,80 @@ font-size: 1.5rem;
    border-radius: 10px; 
    margin-bottom: 5px;
 }
+
+/* POrtfolio */
+.portfolio__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 7rem;
+}
+
+.main__portfolio{
+    max-width: 1200px;
+}
+
+.main__portfolio h1 {
+    color: var(--color-white);
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
+    padding-bottom: 50px;
+    margin-top: 0px;
+}
+
+.items__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 40px;
+    margin-bottom: 30px;
+}
+
+.item__portfolio{
+    width: 435px;
+    background-color: var(--color-secondary-dark80);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 5px rgb(36, 36, 36);
+}
+
+.item__portfolio h3{
+color: var(--color-red);
+font-size: 1.5rem;
+}
+
+.item__portfolio p {
+    color: var(--color-white);
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.img-portfolio img {
+   width: 385px;
+   height: 215px;
+   border-radius: 10px; 
+   margin-bottom: 5px;
+}
+
+.project__languages {
+border-collapse: separate;
+border-spacing: 10px;
+width: auto;
+height: 20px;
+margin-top: 10px;
+
+}
+
+.project__languages th{
+    font-weight: 400;
+    color: var(--color-white);
+    border: 1.6px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
