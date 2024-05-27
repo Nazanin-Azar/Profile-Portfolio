@@ -210,9 +210,6 @@ color: var(--color-white);
     max-width: 70vw;
 }
 
-.read__about {
-    min-width: ;
-}
 
 .read__about p {
     color: var(--color-white);
@@ -339,4 +336,62 @@ margin-bottom: 5px;
 .item__experience p {
     color: var(--color-white);
     font-weight: 400;
+}
+
+
+/* Skill */
+.skill__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main__skill{
+    max-width: 1200px;
+}
+
+.main__skill h1 {
+    color: var(--color-white);
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
+    padding-bottom: 50px;
+}
+
+.items__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 40px;
+    margin-bottom: 30px;
+}
+
+.item__skill{
+    width: 435px;
+    background-color: var(--color-secondary-dark80);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 5px rgb(36, 36, 36);
+}
+
+.item__skill h3{
+color: var(--color-red);
+font-size: 1.5rem;
+}
+
+.item__skill p {
+    color: var(--color-white);
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.img-skill img {
+   width: 75px;
+   height: 75px;
+   border-radius: 10px; 
+   margin-bottom: 5px;
 }
