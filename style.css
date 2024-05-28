@@ -471,4 +471,132 @@ margin-top: 10px;
     padding: 5px;
 }
 
+/* Contact */
 
+ .contact__container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    /* margin-top: 7rem; */
+}
+
+.main__contact {
+    /* max-width: 1200px; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__contact h1 {
+    color: var(--color-white);
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
+    padding-bottom: 50px;
+    margin-top: 0px;
+}
+
+.text__contact {
+    max-width: 40%;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.text__contact p {
+    color: var(--color-white);
+    line-height: 1.9;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.footer__btn {
+    background-color: var(--color-red);
+    border: none;
+    color: var(--color-white);
+    width: 142px;
+    height: 43px;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+.social__icons {
+    margin-top: 60px;
+    display: flex;
+   justify-content: center;
+   
+}
+
+.fa-brands {
+    color: var(--color-white);
+    font-size: 30px;
+    padding: 0 20px;
+}
+
+.footer {
+    display: flex;
+    background-color: var(--color-secondary-dark80);
+    height: 40px;
+} 
+
+
+/* .contact__container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main__contact {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer h4 {
+    margin: 5px 0;
+}
+
+.text__contact {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.footer__btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer__btn:hover {
+    background-color: #0056b3;
+}
+
+.social__bagdet a {
+    margin: 0 10px;
+    color: #007bff;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.social__bagdet a:hover {
+    color: #0056b3;
+} */
