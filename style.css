@@ -44,6 +44,7 @@
     padding: 0;
 }
  
+
 /* Header */
 
 .main__header {
@@ -104,6 +105,10 @@ padding: 10px;
 }
 .nav__btn:hover {
     cursor: pointer;
+}
+
+.hamburger-menu {
+    display: none;
 }
 
 /* Hero */
