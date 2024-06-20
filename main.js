@@ -21,3 +21,7 @@ document.getElementById('contact').addEventListener('click', function() {
 document.getElementById('resume__button').addEventListener('click', function() {
     window.open('resume.html', '_self');
 })
+
+document.getElementById('scroll-icon').addEventListener('click', function() {
+    document.querySelector('.about__container').scrollIntoView({ behavior: 'smooth' });
+});

@@ -1491,6 +1491,10 @@ margin-top: 10px;
     margin-top: 40px;
 }
 
+.footer__btn:hover {
+cursor: pointer;
+}
+
 .social__icons {
     margin-top: 60px;
     display: flex;
