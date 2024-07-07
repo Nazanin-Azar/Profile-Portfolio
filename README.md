@@ -11,6 +11,7 @@ This project is a personal profile/portfolio webpage designed to showcase skills
 - resume.html: It contains your resume webpage 
 - message.html: If you click on (Write Message) new webpage is prepared
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nazanin-Azar&layout=donut-vertical)](https://github.com/anuraghazra/github-readme-stats)
 ## Components
 
 ### 1. Header Section
